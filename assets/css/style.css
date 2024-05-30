@@ -2404,3 +2404,70 @@ p {
 .mission-icons:hover {
   transition: ease-in-out 3s;
 }
+ 
+/* pitchdeck */
+.modal-dialog {
+  max-width: 500px; /* Adjust as necessary */
+  margin: 1.75rem auto;
+}
+
+.modal-content {
+  /* padding: 15px; */
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.formWrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.formWrap label {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+.formWrap input, .formWrap select {
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 0.9em;
+}
+
+.formWrap input:focus, .formWrap select:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+#submitSecondModal {
+  padding: 8px 16px;
+  /* margin-top: 15px; */
+  background-color: #05953c;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+#submitSecondModal:hover {
+  background-color: #00b306;
+}
+
+@media (max-width: 768px) {
+  .modal-dialog {
+      width: 90%;
+      margin: 50px auto;
+  }
+}
