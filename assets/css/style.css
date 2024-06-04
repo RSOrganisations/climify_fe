@@ -30,7 +30,7 @@ font-family: 'DM Sans', sans-serif;
 */
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: sans-serif;
 }
 
 :root {
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
 }
 
 h2 {
@@ -133,7 +133,7 @@ h2 {
 .banner-services h1 {
   color: var(--secondary--color);
   margin-bottom: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
   font-weight: bold;
   line-height: 88px;
   word-spacing: 4px;
@@ -218,7 +218,7 @@ h2 {
 .banner h1 {
   color: var(--secondary--color);
   margin-bottom: 24px;
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
   font-weight: bold;
   line-height: 88px;
   word-spacing: 4px;
@@ -1790,7 +1790,7 @@ p {
 .banner h2 {
   color: var(--secondary--color);
   margin-bottom: 40px;
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
   font-weight: bold;
   word-spacing: 4px;
   font-size: 80px !important;
@@ -2049,7 +2049,7 @@ p {
 .career-banner h1 {
   color: var(--secondary--color);
   margin-bottom: 20px !important;
-  font-family: "Playfair Display", serif;
+  font-family: sans-serif;
   font-weight: bold;
   line-height: 88px;
   word-spacing: 4px;
@@ -2470,4 +2470,94 @@ p {
       width: 90%;
       margin: 50px auto;
   }
+}
+.blinking {
+  animation: blinkingText 1.5s infinite;
+  border-radius: 20px;
+}
+.blinking a{
+  font-size: 20px;
+  font-weight: bold;
+}
+@keyframes blinkingText {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  left: 15px;
+  padding:8px;
+}
+
+.fixedcall1 {
+  position: fixed;
+  width: 180px;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  top: 28%;
+  right: -135px;
+  z-index: 999;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
+  background: rgb(51, 51, 51);
+  transition: .4s;
+}
+
+.fixedcall1:hover {
+  right: 0;
+}
+
+.fixedcall1 .phonenumber {
+  display: block;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  transition: .4s;
+}
+
+.fixedcall1 .phonenumber span {
+  width: 45px;
+  height: 45px;
+  float: left;
+  background: #25d366;
+  font-size: 25px;
+  margin: 0 15px 0 0;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+}
+
+.fixedcall1 .phonenumber p {
+  margin: 0;
+  padding: 7px;
+  color: #25d366;
+}
+
+.phn {
+  color: #25d366;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: .6px;
+  text-decoration: none;
 }
