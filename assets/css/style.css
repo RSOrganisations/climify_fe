@@ -2449,6 +2449,12 @@ p {
   font-size: 0.8em;
   margin-top: 4px;
 }
+.success{
+  color: #00b306;
+  font-size: 15px;
+font-weight: bold;
+
+}
 
 #submitSecondModal {
   padding: 8px 16px;
