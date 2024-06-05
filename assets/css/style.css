@@ -144,7 +144,21 @@ h2 {
   background-color: var(--secondary--color);
   padding: 0;
 }
-
+.navbar-expand-lg .navbar-collapse {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  /* font-size: 25px; */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0.25rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
 .nav-item a {
   text-decoration: none;
   color: var(--primary--color) !important;
@@ -658,10 +672,11 @@ header {
 }
 
 .mission-box p {
-  font-size: 18px;
+  font-size: 20px;
   color: var(--secondary--color);
   line-height: 26px;
-  font-weight: 400;
+  font-weight: bold;
+  font-family: Georgia, serif;
 }
 
 .mission-box .plus-sign {
