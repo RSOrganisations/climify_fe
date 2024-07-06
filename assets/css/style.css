@@ -74,6 +74,13 @@ h2 {
 
   height: 966px;
 }
+#header-section_sponsor{
+  background: url(../images/sponsor.jpeg) no-repeat top left;
+  background-size: cover;
+  border-image: fill 0 linear-gradient(#0001, #000);
+
+  height: 966px;
+}
 
 .header-section-services {
   background: url(../images/services-banner.jpg) no-repeat;
@@ -258,6 +265,9 @@ h2 {
   display: block;
   line-height: 32px;
   transition: ease-in-out 0.3s;
+}
+#sponsor-btn{
+  background-color: #006241;
 }
 
 .left-header {
@@ -1815,11 +1825,11 @@ p {
   background: url(../images/mission-box1.jpg);
   background-position: center;
   background-repeat: no-repeat !important;
-  text-align: justify;
+  text-align: start;
   width: 255px;
   left: 0px;
   height: 294px;
-  padding: 46px 34px;
+  padding: 46px 10px;
 }
 
 .mission-counter-about {
@@ -2642,4 +2652,110 @@ font-weight: bold;
   font-weight:bold;
 
 
+}
+
+.contact-boxsponsor1 {
+  background: url(../images/sponsor1.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor2 {
+  background: url(../images/sponsor2.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor3 {
+  background: url(../images/sponsor3.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor4 {
+  background: url(../images/sponsor3.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor5 {
+  background: url(../images/sponsor5.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor6 {
+  background: url(../images/sponsor6.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.contact-boxsponsor7 {
+  background: url(../images/sponsor7.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 200px;
+}
+.Deals_closed4{
+  background: url(../images/energycompany.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 228px;
+}
+.Deals_closed2{
+  background: url(../images/XtendedSpacelogo.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 228px;
+}
+.Deals_closed3{
+  background: url(../images/Sushainlogo.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 228px;
+}
+.Deals_closed1{
+  background: url(../images/agrileaflogo.png);
+  padding: 38px 33px 40px 33px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: justify;
+  width: 350px;
+  height: 228px;
+}
+.text-custom-sponsor {
+  color: #28c785 !important;
+}
+#rowmg img {
+  width: 150px;
 }
