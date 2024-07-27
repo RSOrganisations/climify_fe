@@ -262,9 +262,10 @@ h2 {
   background-color: var(--accent-color);
   letter-spacing: 2px;
   word-spacing: 1px;
-  display: block;
+  /* display: block; */
   line-height: 32px;
   transition: ease-in-out 0.3s;
+  border-radius: 9px;
 }
 #sponsor-btn{
   background-color: #006241;
@@ -2745,7 +2746,7 @@ font-weight: bold;
   height: 228px;
 }
 .Deals_closed1{
-  background: url(../images/agrileaflogo.png); 
+  background: url(../images/agrileaf13.png); 
   padding: 38px 33px 40px 33px;
   background-position: center;
   background-repeat: no-repeat;
@@ -2758,4 +2759,48 @@ font-weight: bold;
 }
 #rowmg img {
   width: 150px;
+}
+#custom-link {
+ 
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1rem; /* py-2 px-4 */
+  border-radius: 0.25rem; /* rounded */
+  text-decoration: none;
+ 
+}
+#custom-link:hover {
+  /* background-color: white; */
+  color: #28C785;
+}
+#form-container:hover {
+  background-color: white;
+ 
+}
+.callus-box:hover{
+  background-color: white;
+  color: #28C785;
+}
+
+@media(max-width:768px){
+#d-table-cellid {
+  margin-top: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+}
+#climate{
+  font-size: 13px;
+  
+}
+
+
+  
+}
+#pitch-battle-link {
+  font-size: 15px; 
+}
+#about-us-link {
+  white-space: nowrap; 
 }
