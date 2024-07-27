@@ -2759,3 +2759,9 @@ font-weight: bold;
 #rowmg img {
   width: 150px;
 }
+#about-us-link {
+  white-space: nowrap; 
+}
+#pitch-battle-link {
+  font-size: 10px; 
+}
