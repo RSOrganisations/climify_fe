@@ -293,7 +293,7 @@ h2 {
 .callus-box {
   background-color: var(--accent-color);
   color: var(--secondary--color);
-  padding: 14px 30px;
+  padding: 10px 10px;
 }
 /* .callus-box:hover {
   background-color: white;
