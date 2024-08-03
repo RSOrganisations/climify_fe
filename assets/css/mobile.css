@@ -2186,9 +2186,12 @@
   }
 
   .banner-content {
-    height: 352px;
+    height: 500px;
     text-align: center;
   }
+  .d-table-cell.align-middle.banner {
+    margin-top: 50px;
+}
 
   .images-site {
     margin-bottom: 362px;
