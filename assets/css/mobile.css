@@ -2189,7 +2189,7 @@
     height: 500px;
     text-align: center;
   }
-  .d-table-cell.align-middle.banner {
+  #d-table-cell {
     margin-top: 50px;
 }
 
