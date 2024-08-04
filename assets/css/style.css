@@ -294,6 +294,7 @@ h2 {
   background-color: var(--accent-color);
   color: var(--secondary--color);
   padding: 10px 10px;
+  /* background-color: #09907F; */
 }
 /* .callus-box:hover {
   background-color: white;
@@ -2807,4 +2808,23 @@ font-weight: bold;
 }
 #about-us-link {
   white-space: nowrap; 
+}
+
+#sendnow{
+  background-color: #09907F;
+}
+#footer-service-box{
+  background-color: #09907F;
+}
+#our-services{
+  color: #09907F;
+}
+#contact-with-us{
+  color: #09907F;
+}
+#input-btn{
+  background-color: #09907F;
+}
+#callus-box_service{
+  background-color: #09907F;
 }
